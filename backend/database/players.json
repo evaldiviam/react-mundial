@@ -1,0 +1,144 @@
+[{
+  "_id": {
+    "$oid": "639de1fe566bd5758a347732"
+  },
+  "name": "Cristiano",
+  "surnames": "Ronaldo",
+  "team": {
+    "$oid": "639da0645820f2989db28468"
+  },
+  "position": "DELANTERO",
+  "photo": "cristiano-ronaldo.jpg"
+},{
+  "_id": {
+    "$oid": "63a06bdf8dbe610048742a4f"
+  },
+  "name": "Neymar",
+  "surnames": "Da Silva Santos",
+  "team": {
+    "$oid": "639da0215820f2989db28454"
+  },
+  "position": "DELANTERO",
+  "photo": "neymar.jpg"
+},{
+  "_id": {
+    "$oid": "63a06ca08dbe610048742a51"
+  },
+  "name": "Leo",
+  "surnames": "Messi",
+  "team": {
+    "$oid": "6387854d782b776b70ee325b"
+  },
+  "position": "DELANTERO",
+  "photo": "leo-messi.jpg"
+},{
+  "_id": {
+    "$oid": "63a06d294f14de8955661342"
+  },
+  "name": "Kylian",
+  "surnames": " Mbappé",
+  "team": {
+    "$oid": "638784b6782b776b70ee3256"
+  },
+  "position": "DELANTERO",
+  "photo": "Kylian.jpg"
+},{
+  "_id": {
+    "$oid": "63a0738feb457e3afcf01c52"
+  },
+  "name": "Robert",
+  "surnames": " Lewandowski",
+  "team": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "position": "DELANTERO",
+  "photo": "robert-lewan.jpg"
+},{
+  "_id": {
+    "$oid": "63a0741feb457e3afcf01c53"
+  },
+  "name": "Dani",
+  "surnames": " Alves",
+  "team": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "position": "DEFENSA",
+  "photo": "dani-alves.jpg"
+},{
+  "_id": {
+    "$oid": "63a07487eb457e3afcf01c54"
+  },
+  "name": "Luka",
+  "surnames": "Modrić",
+  "team": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "position": "CENTROCAMPISTA",
+  "photo": "luka-modric.jpg"
+},{
+  "_id": {
+    "$oid": "63a07528eb457e3afcf01c55"
+  },
+  "name": "Ángel",
+  "surnames": "Di María",
+  "team": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "position": "CENTROCAMPISTA",
+  "photo": "angel-di-maria.jpg"
+},{
+  "_id": {
+    "$oid": "63a075f5eb457e3afcf01c56"
+  },
+  "name": "Manuel",
+  "surnames": "Neuer",
+  "team": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "position": "GUARDAMETA",
+  "photo": "manuel-neuer.jpg"
+},{
+  "_id": {
+    "$oid": "63a0c82f5714e5b9d6658171"
+  },
+  "name": "Kevin",
+  "surnames": "De Bruyne",
+  "team": {
+    "$oid": "639d9b405820f2989db2841e"
+  },
+  "position": "CENTROCAMPISTA",
+  "photo": "kevin-de-bruyne.jpg"
+},{
+  "_id": {
+    "$oid": "63a0c89e5714e5b9d6658179"
+  },
+  "name": "Antoine",
+  "surnames": "Griezmann",
+  "team": {
+    "$oid": "638784b6782b776b70ee3256"
+  },
+  "position": "DELANTERO",
+  "photo": "antoine-griezmann.jpg"
+},{
+  "_id": {
+    "$oid": "63a0cf0dccd492cbd0f8cf32"
+  },
+  "name": "Pedro",
+  "surnames": "Gavi",
+  "team": {
+    "$oid": "6387842a782b776b70ee3253"
+  },
+  "position": "CENTROCAMPISTA",
+  "photo": "pablo-gavi.jpg"
+},{
+  "_id": {
+    "$oid": "63a207e3f8d687515e3cce86"
+  },
+  "name": "David",
+  "surnames": "Nelson",
+  "team": {
+    "$oid": "63878483782b776b70ee3254"
+  },
+  "position": "DELANTERO",
+  "photo": "angel-di-maria.jpg"
+}]

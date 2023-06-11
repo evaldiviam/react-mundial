@@ -1,0 +1,225 @@
+[{
+  "_id": {
+    "$oid": "6387842a782b776b70ee3253"
+  },
+  "name": "España",
+  "group": "E",
+  "imgFlag": "espana.png"
+},{
+  "_id": {
+    "$oid": "63878483782b776b70ee3254"
+  },
+  "name": "Catar",
+  "group": "A",
+  "imgFlag": "catar.png"
+},{
+  "_id": {
+    "$oid": "63878496782b776b70ee3255"
+  },
+  "name": "Ecuador",
+  "group": "A",
+  "imgFlag": "ecuador.png"
+},{
+  "_id": {
+    "$oid": "638784b6782b776b70ee3256"
+  },
+  "name": "Francia",
+  "group": "D",
+  "imgFlag": "francia.png"
+},{
+  "_id": {
+    "$oid": "638784d4782b776b70ee3257"
+  },
+  "name": "Australia",
+  "group": "D",
+  "imgFlag": "australia.png"
+},{
+  "_id": {
+    "$oid": "638784ed782b776b70ee3258"
+  },
+  "name": "Alemania",
+  "group": "E",
+  "imgFlag": "alemania.png"
+},{
+  "_id": {
+    "$oid": "6387851c782b776b70ee3259"
+  },
+  "name": "Inglaterra",
+  "group": "B",
+  "imgFlag": "inglaterra.png"
+},{
+  "_id": {
+    "$oid": "63878534782b776b70ee325a"
+  },
+  "name": "Irán",
+  "group": "B",
+  "imgFlag": "iran.png"
+},{
+  "_id": {
+    "$oid": "6387854d782b776b70ee325b"
+  },
+  "name": "Argentina",
+  "group": "C",
+  "imgFlag": "argentina.png"
+},{
+  "_id": {
+    "$oid": "63878590782b776b70ee325c"
+  },
+  "name": "Arabia Saudita",
+  "group": "C",
+  "imgFlag": "arabia-saudita.png"
+},{
+  "_id": {
+    "$oid": "638785ad782b776b70ee325d"
+  },
+  "name": "Japón",
+  "group": "E",
+  "imgFlag": "japon.png"
+},{
+  "_id": {
+    "$oid": "63984c022e24aedd0345c4a0"
+  },
+  "name": "Costa Rica",
+  "group": "E",
+  "imgFlag": "costa-rica.png"
+},{
+  "_id": {
+    "$oid": "639d946d039307d091ce6a55"
+  },
+  "name": "Paises bajos",
+  "group": "A",
+  "imgFlag": "paises-bajos.png"
+},{
+  "_id": {
+    "$oid": "639d953d5820f2989db282e8"
+  },
+  "name": "Senegal",
+  "group": "A",
+  "imgFlag": "senegal.png"
+},{
+  "_id": {
+    "$oid": "639d96ae5820f2989db2831f"
+  },
+  "name": "Estados Unidos",
+  "group": "B",
+  "imgFlag": "estados-unidos.png"
+},{
+  "_id": {
+    "$oid": "639d96bf5820f2989db28322"
+  },
+  "name": "Gales",
+  "group": "B",
+  "imgFlag": "gales.png"
+},{
+  "_id": {
+    "$oid": "639d974e5820f2989db28333"
+  },
+  "name": "Polonia",
+  "group": "C",
+  "imgFlag": "polonia.png"
+},{
+  "_id": {
+    "$oid": "639d986e5820f2989db2837a"
+  },
+  "name": "México",
+  "group": "C",
+  "imgFlag": "mexico.png"
+},{
+  "_id": {
+    "$oid": "639d99495820f2989db283bc"
+  },
+  "name": "Túnez",
+  "group": "D",
+  "imgFlag": "tunez.png"
+},{
+  "_id": {
+    "$oid": "639d99545820f2989db283bf"
+  },
+  "name": "Dinamarca",
+  "group": "D",
+  "imgFlag": "dinamarca.png"
+},{
+  "_id": {
+    "$oid": "639d99f75820f2989db283cc"
+  },
+  "name": "Marruecos",
+  "group": "F",
+  "imgFlag": "marruecos.png"
+},{
+  "_id": {
+    "$oid": "639d9b1e5820f2989db2841b"
+  },
+  "name": "Croacia",
+  "group": "F",
+  "imgFlag": "croacia.png"
+},{
+  "_id": {
+    "$oid": "639d9b405820f2989db2841e"
+  },
+  "name": "Bélgica",
+  "group": "F",
+  "imgFlag": "belgica.png"
+},{
+  "_id": {
+    "$oid": "639d9b4d5820f2989db28421"
+  },
+  "name": "Canadá",
+  "group": "F",
+  "imgFlag": "canada.png"
+},{
+  "_id": {
+    "$oid": "639da0215820f2989db28454"
+  },
+  "name": "Brasil",
+  "group": "G",
+  "imgFlag": "brasil.png"
+},{
+  "_id": {
+    "$oid": "639da0335820f2989db28457"
+  },
+  "name": "Suiza",
+  "group": "G",
+  "imgFlag": "suiza.png"
+},{
+  "_id": {
+    "$oid": "639da0485820f2989db28462"
+  },
+  "name": "Camerún",
+  "group": "G",
+  "imgFlag": "camerun.png"
+},{
+  "_id": {
+    "$oid": "639da0555820f2989db28465"
+  },
+  "name": "Serbia",
+  "group": "G",
+  "imgFlag": "serbia.png"
+},{
+  "_id": {
+    "$oid": "639da0645820f2989db28468"
+  },
+  "name": "Portugal",
+  "group": "H",
+  "imgFlag": "portugal.png"
+},{
+  "_id": {
+    "$oid": "639da0775820f2989db2846b"
+  },
+  "name": "Corea del sur",
+  "group": "H",
+  "imgFlag": "corea-sur.png"
+},{
+  "_id": {
+    "$oid": "639da0865820f2989db2846e"
+  },
+  "name": "Uruguay",
+  "group": "H",
+  "imgFlag": "uruguay.png"
+},{
+  "_id": {
+    "$oid": "639da09b5820f2989db28471"
+  },
+  "name": "Ghana",
+  "group": "H",
+  "imgFlag": "ghana.png"
+}]

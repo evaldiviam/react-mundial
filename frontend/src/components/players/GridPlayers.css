@@ -1,0 +1,51 @@
+.grid-players{
+    display: grid;
+    grid-template-columns: repeat(5,auto);
+    gap:1rem;
+    background-color: #FFFFFF;
+    border: 1px solid rgb(112, 112, 112);
+    padding: 0.6rem;
+}
+.grid-players .card{
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 150px;
+    padding: 0;
+    margin: 0;
+ 
+    
+}
+.grid-players .card .photo{
+    background-size:cover;
+    width: 100%;
+    height: 150px;
+    
+}
+.grid-players .card .info{
+    padding: 10px 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    /* height: 100px; */
+   
+
+}
+.grid-players .card .team{
+   display: flex;
+   justify-content: flex-start;
+   align-items: center;
+   width: 100%;
+   margin-top: 1rem;
+    
+}
+.grid-players .card .team img{
+    width: 24px;
+    margin-right: 10px;
+}
+.grid-players .name-player{
+    font-weight: bold;
+}
+.grid-players .position{
+    text-transform: capitalize;
+}
+

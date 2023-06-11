@@ -1,0 +1,301 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Geneva, Tahoma;
+}
+body{
+  background-color: #F8F9FA;
+  position: relative;
+}
+
+/* header styles */
+/*------------------*/
+header{
+  background: #8A1538;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+
+  position:fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  width: 100%;
+  height: 20vh;
+  box-shadow: 0px 2px 2px 2px rgba(0,0,0,0.4);
+}
+/* header::after{
+  content: '';
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  z-index: 10;
+  height: 80%;
+  width: 20%;
+  background: url(../img/qatar.png) top left no-repeat;
+  background-size: contain;
+} */
+header h1{
+  padding: 2rem 0 1rem 0;
+  font-size: 1.2rem;
+}
+header nav{
+  padding: 1rem 0;
+}
+header nav a{
+  text-decoration: none;
+  min-width: 150px;
+  color:white;
+  padding: 1rem 2rem;
+  text-align: center;
+}
+nav a.active{
+  border-bottom: 2px  solid #F8F9FA;
+  border-top-right-radius:5px ;
+  border-top-left-radius:5px ;
+  background-color: #a92e53; 
+  border-bottom: 2px  solid #F8F9FA;
+}
+header nav a:hover{
+  background-color: #5e0d25;
+}
+header .user-container{
+  position: absolute;
+  top:0;
+  right: 1rem;
+  background-color:#5E0D25 ;
+  padding: 0.8rem 1rem;
+  border-bottom-right-radius:5px;
+  border-bottom-left-radius:5px;
+  font-size: 0.8rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  -webkit-box-shadow: 0px 3px 4px 3px rgba(0,0,0,0.56); 
+  box-shadow: 0px 3px 4px 3px rgba(0,0,0,0.56);
+}
+.user-container span{
+  display: inline-block;
+  padding: 0 0.5rem;
+}
+
+
+
+/* Main styles */
+/*------------------*/
+main{
+  display: flex;
+  justify-content: center;
+  padding-top: 24vh;;
+}
+main h2{
+  margin-bottom: 1.5rem;
+}
+.grid-results{
+  display: grid;
+  grid-template-columns: 375px 375px;
+  row-gap: 1rem;
+  column-gap: 0.5rem;
+ 
+}
+.card{
+  min-height: 150px;
+  border: 1.5px solid #ededed;
+  padding: 1rem;
+  background-color: white;
+  overflow: hidden;
+}
+.card .info{
+  display: flex;
+  justify-content: space-between;
+  padding: 0rem 0rem 1rem 0;
+  color:#7b8084;
+}
+.card .country{
+  display: grid;
+  grid-template-columns: 10% 80% 10%;
+  padding: 0.6rem 0;
+  font-size: 0.9rem;
+}
+.card .country .goals{
+  text-align: right;
+} 
+.card .country img{
+  width: 25px;
+}
+
+/* Form styles */
+/*------------------*/
+.firstRow{
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap:10px;
+}
+.secondRow{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap:10px;
+  padding-top: 1rem;
+}
+.inputBox{
+  text-align: left;
+}
+label{
+  display: block;
+  text-align: left;
+  margin-bottom: 7px;
+}
+input{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #525253;
+}
+select{
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #525253;
+}
+.form-container{
+  width: 900px;
+}
+.panelButton{
+  border-bottom: 1px solid #DFE0E1;
+  border-top: 1px solid #DFE0E1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  min-height: 4rem;
+  margin:2rem 0;
+}
+button{
+  background-color: #0069D9;
+  border: 0;
+  border-radius: 5px;
+  color:white;
+  font-weight: 600;
+  padding: 0.7rem 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.action-message{
+  background-color: rgba(209, 227, 247, 0.623);
+  color: #525253;
+  padding: 0.8rem 0.5rem;
+  border-radius: 0.5rem;
+}
+
+table{
+  width: 100%;
+  background-color: white;
+  border: 0;
+}
+
+/* Table styles */
+/*------------------*/
+table td{
+  padding: 1rem 0.5rem;
+  text-align: left;
+  margin: 0;
+  border: 0;
+}
+table th{
+  background-color: #F5F5F1;
+  padding: 0.5rem 0;
+}
+table tr{
+  border: 0;
+  background-color: white;
+}
+table tr:nth-child(odd){
+  background-color:#F8F9FA;
+}
+.actions{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+td input, td .readOnlyForm{
+  appearance: none;
+  -webkit-appearance: none;
+  border: 0;
+  padding: 5px 5px;
+  margin: 0;
+  background-color: transparent;
+  border-radius: 0;
+  outline: none;
+  border-bottom: 1px solid transparent;
+}
+td input:focus{
+  border: 0;
+}
+td .editForm, td .editForm:focus{
+  border-bottom: 1px solid #000;
+  
+}
+td.goals{
+  text-align: center;
+}
+
+.fa-pen-to-square{
+  color:#0069D9;
+}
+.fa-trash{
+  color: #8A1538;
+}
+
+/* Footer styles */
+/*------------------*/
+footer{
+  margin-top:3rem;
+  padding: 1rem;
+  text-align: center;
+  background-color: #8A1538;
+  color:white;
+}
+
+.rankingTable{
+  width: 800px;
+}
+.rankingTable .team{
+  width: 50%;
+  display: flex;
+  align-items: center;
+}
+.rankingTable td{
+  background-color: white;
+}
+.rankingTable .team img{
+  width: 24px;
+  margin: 0 10px;
+}
+.rankingTable .group{
+  font-size: 1.1rem;
+  font-weight: 800;
+}
+.rankingTable td, .rankingTable tr{
+  /* border-bottom: 1px solid #000; */
+
+}
+.rankingTable tr:nth-child(odd){
+  background-color:white;
+}
+.rankingTable .rowHeader{
+  color:#7b8084;
+  font-size: 0.8rem;
+  border-bottom: 1px solid #525253;
+}
+
+.tdTeam{
+  display: flex;
+  justify-content:flex-start;
+  align-items: center;
+}
+.tdTeam img{
+  width: 16px;
+}
